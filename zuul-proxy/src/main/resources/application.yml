@@ -1,0 +1,7 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: ${eureka-url}
+      
+zuul:
+  prefix: /services
