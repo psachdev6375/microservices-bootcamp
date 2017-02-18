@@ -1,0 +1,36 @@
+#. application.yml
+spring:
+  application:
+    name: lab-4-eureka-server
+
+  profiles: default
+server:
+  port: 8010
+    
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+  instance:
+    hostname: localhost
+
+---
+spring: 
+  profiles: primary 
+server:
+  port: 8010
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8011/eureka/
+---
+spring:
+  profiles: secondary
+server:
+  port: 8011
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8010/eureka/
