@@ -6,7 +6,6 @@ spring:
       server:
         git:
           uri: https://github.com/psachdev6375/ConfigData
-          username: psachdev6375
-          password: j34Lmn@xpr
+
 server:
   port: 8001
