@@ -1,12 +1,13 @@
 <B> Microservices Bootcamp </B>
 
 Consists of 5 projects which showcase a complete microservices application with the following capabilities: 
-1. Service Discovery using Eureka 
-2. Circuit Breakers using Hysterix
-3. Client Side loadbalancing using Ribbon 
-4. Spring Cloud Netflix, Spring Configuration and Spring Profiles 
-5. Zuul for proxy 
-
+<ul>
+<li>1. Service Discovery using Eureka </li>
+<li>2. Circuit Breakers using Hysterix</li>
+<li>3. Client Side loadbalancing using Ribbon</li> 
+<li>4. Spring Cloud Netflix, Spring Configuration and Spring Profiles </li>
+<li>5. Zuul for proxy </li>
+</ul>
 Application: The application consists of: 
 
 1. eureka-server: Eureka Server for service discovery
