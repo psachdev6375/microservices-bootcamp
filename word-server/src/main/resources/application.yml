@@ -4,4 +4,6 @@ eureka:
       defaultZone: ${eureka-url}
   instance:
     prefer-ip-address: true
+    lease-expiration-duration-in-seconds: 2
+    lease-renewal-interval-in-seconds: 1
       
