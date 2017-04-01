@@ -117,5 +117,14 @@ public class WordServiceImpl implements WordService {
 	public Word getFallbackArticle() {
 		return new Word("**Dummy-Article**");
 	}
+	
+	/**
+	 * Gets the fallback verb.
+	 *
+	 * @return the fallback verb
+	 */
+	public Word getFallbackVerb() {
+		return new Word("**Dummy-Verb**");
+	}
 
 }
