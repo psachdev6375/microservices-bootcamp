@@ -50,6 +50,7 @@ public class WordServiceImpl implements WordService {
 	 * @see com.puneet.service.WordService#getVerb()
 	 */
 	@Override
+	@HystrixCommand(fallbackMethod="getFallbackVerb")
 	public Word getVerb() {
 		return verbClient.getWord();
 	}
@@ -58,6 +59,7 @@ public class WordServiceImpl implements WordService {
 	 * @see com.puneet.service.WordService#getArticle()
 	 */
 	@Override
+	@HystrixCommand(fallbackMethod="getFallbackArticle")
 	public Word getArticle() {
 		return articleClient.getWord();
 	}
@@ -86,7 +88,7 @@ public class WordServiceImpl implements WordService {
 	 * @return the fallback subject
 	 */
 	public Word getFallbackSubject() {
-		return new Word("Someone");
+		return new Word("**Dummy-Subject**");
 	}
 	
 	/**
@@ -95,7 +97,7 @@ public class WordServiceImpl implements WordService {
 	 * @return the fallback adjective
 	 */
 	public Word getFallbackAdjective() {
-		return new Word("");
+		return new Word("**Dummy-Adjective**");
 	}
 	
 	/**
@@ -104,7 +106,16 @@ public class WordServiceImpl implements WordService {
 	 * @return the fallback noun
 	 */
 	public Word getFallbackNoun() {
-		return new Word("something");
+		return new Word("**Dummy-Noun**");
+	}
+	
+	/**
+	 * Gets the fallback article.
+	 *
+	 * @return the fallback article
+	 */
+	public Word getFallbackArticle() {
+		return new Word("**Dummy-Article**");
 	}
 
 }
