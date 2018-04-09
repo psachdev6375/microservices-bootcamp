@@ -37,4 +37,8 @@ spring:
   profiles: adjective
   application:
     name: adjective
-      
+---
+spring:
+  profiles: verb2
+  application:
+    name: verb
