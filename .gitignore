@@ -20,4 +20,5 @@ data/
 prometheus-operator/
 bin/
 *.log
-
+ms1/
+ms2/

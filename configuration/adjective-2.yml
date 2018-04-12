@@ -1,0 +1,5 @@
+#adjective.yml
+
+word-server: 
+  words: reasonable-2,leaky-2,suspicious-2,ordinary-2,unlikely-2
+eureka-url: http://localhost:8010/eureka/,http://localhost:8011/eureka/ 

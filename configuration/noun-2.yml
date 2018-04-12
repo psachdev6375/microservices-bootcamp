@@ -1,0 +1,7 @@
+#noun.yml
+
+word-server: 
+  words: boat-2,book-2,vote-2,seat-2,backpack-2,partition-2,groundhog-2
+eureka-url: http://localhost:8010/eureka/,http://localhost:8011/eureka/
+#words: r-boat,r-book,r-vote,r-seat,r-backpack,r-partition,r-groundhog
+#words: boat,book,vote,seat,backpack,partition,groundhog
