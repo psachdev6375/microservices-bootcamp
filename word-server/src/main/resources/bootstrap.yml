@@ -37,29 +37,3 @@ spring:
   profiles: adjective
   application:
     name: adjective
----
-spring:
-  profiles: subject2
-  application:
-    name: subject
----
-spring:
-  profiles: noun2
-  application:
-    name: noun
----
-spring:
-  profiles: article2
-  application:
-    name: article
----
-spring:
-  profiles: verb2
-  application:
-    name: verb
----
-spring:
-  profiles: adjective2
-  application:
-    name: adjective
----

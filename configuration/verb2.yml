@@ -1,5 +1,0 @@
-#verb.yml
-
-word-server: 
-  words: ran-2,knew-2,had-2,saw-2,bought-2
-eureka-url: http://192.168.0.3:8010/eureka/

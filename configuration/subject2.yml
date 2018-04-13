@@ -1,5 +1,0 @@
-#subject.yml
-
-word-server: 
-  words: I-2,You-2,He-2,She-2,It-2
-eureka-url: http://192.168.0.3:8010/eureka/

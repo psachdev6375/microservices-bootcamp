@@ -1,5 +1,0 @@
-#article.yml
-
-word-server: 
-  words: a-2,the-2
-eureka-url: http://192.168.0.3:8010/eureka/
