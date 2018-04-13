@@ -4,6 +4,5 @@ eureka:
       defaultZone: ${eureka-url}
   instance:
     prefer-ip-address: true
-
-zuul:
-  prefix: /services
+    lease-expiration-duration-in-seconds: 2
+    lease-renewal-interval-in-seconds: 1

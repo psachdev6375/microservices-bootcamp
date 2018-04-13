@@ -1,0 +1,9 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.0.3:8010/eureka/
+  instance:
+    prefer-ip-address: true
+
+zuul:
+  prefix: /services

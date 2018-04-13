@@ -1,7 +1,7 @@
 spring:
   cloud:
     config:
-      uri: http://localhost:8001
+      uri: http://192.168.0.3:8001
       fail-fast: true
       
 server:
