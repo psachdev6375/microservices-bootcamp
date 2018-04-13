@@ -2,6 +2,6 @@
 
 word-server: 
   words: boat,book,vote,seat,backpack,partition,groundhog
-eureka-url: http://localhost:8010/eureka/,http://localhost:8011/eureka/
+eureka-url: http://192.168.0.3:8010/eureka/,http://192.168.0.4:8010/eureka/
 #words: r-boat,r-book,r-vote,r-seat,r-backpack,r-partition,r-groundhog
 #words: boat,book,vote,seat,backpack,partition,groundhog
