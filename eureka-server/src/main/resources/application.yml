@@ -12,7 +12,7 @@ eureka:
     fetch-registry: false
     register-with-eureka: false
     service-url:
-      defaultZone: http://192.168.0.3:8010/eureka/
+      defaultZone: http://localhost:8010/eureka/
   instance:
     hostname: localhost
   server:
