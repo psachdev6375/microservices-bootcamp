@@ -2,4 +2,4 @@
 
 word-server: 
   words: reasonable,leaky,suspicious,ordinary,unlikely
-eureka-url: http://192.168.0.3:8010/eureka/
+eureka-url: http://localhost:8010/eureka/
